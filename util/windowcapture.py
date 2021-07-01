@@ -70,7 +70,6 @@ class WindowCapture:
                 screenshot = self.getImgGrab()
             self.lock.acquire()
             self.screenshot = screenshot
-            self.screenshot = self.copy()
             self.lock.release()
             sleep(0.01)
             if self.fps and time() - loop_time > 0:
