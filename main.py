@@ -1,11 +1,10 @@
-import sys
 from time import sleep
 
 import win32com.client
 
 from gameClass.action import Action
 from gameClass.game import Game
-from imageAnalysis.DataPickController import ImageDataPickerController
+from util.DataPickController import ImageDataPickerController
 from util.jsonfunction import *
 from util.windowcapture import WindowCapture
 import cv2
